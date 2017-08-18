@@ -8,44 +8,67 @@
 </head>
 
 <body>
-    <h1>Button Tags</h1>
-    <button class="willow-button--inline willow-button">Button Text</button>
-    <button class="willow-button--inline willow-button willow-button--primary">Primary Text</button>
-    <button class="willow-button--inline willow-button willow-button--positive">Positive Text</button>
-    <button class="willow-button--inline willow-button willow-button--negative">Negative Text</button>
-    <button class="willow-button--inline willow-button willow-button--cta">CTA Text</button>
-    <div>
-        <div class="ghost-button-container-blue">
-            <button class="willow-button--inline willow-button willow-button--ghost">Ghost Text</button>
+    <div class="container">
+        <div class="willow-page-content">
+            <h1>Button Tags</h1>
+            <button class="willow-button--inline willow-button">Button Text</button>
+            <button class="willow-button--inline willow-button willow-button--primary">Primary Text</button>
+            <button class="willow-button--inline willow-button willow-button--positive">Positive Text</button>
+            <button class="willow-button--inline willow-button willow-button--negative">Negative Text</button>
+            <button class="willow-button--inline willow-button willow-button--cta">CTA Text</button>
+            <div>
+                <div class="ghost-button-container-blue">
+                    <button class="willow-button--inline willow-button willow-button--ghost">Ghost Text</button>
+                </div>
+                <div class="ghost-button-container">
+                    <button class="willow-button--inline willow-button willow-button--ghost-secondary">Ghost Secondary Text</button>
+                </div>
+            </div>
+            <div>
+                <button class="willow-button--inline willow-button" disabled>Disabled Text</button>
+                <button class="willow-button--inline willow-button willow-button--ghost" disabled>Disabled Ghost Text</button>
+                <button class="willow-button--inline willow-button willow-button--ghost-secondary" disabled>Disabled Ghost Secondary Text</button>
+            </div>
         </div>
-        <div class="ghost-button-container">
-            <button class="willow-button--inline willow-button willow-button--ghost-secondary">Ghost Secondary Text</button>
-        </div>
-    </div>
-    <div>
-        <button class="willow-button--inline willow-button" disabled>Disabled Text</button>
-        <button class="willow-button--inline willow-button willow-button--ghost" disabled>Disabled Ghost Text</button>
-        <button class="willow-button--inline willow-button willow-button--ghost-secondary" disabled>Disabled Ghost Secondary Text</button>
-    </div>
 
-    <h1>Text Tags</h1>
-    <a href="" class="willow-button--inline willow-button" aria-label="">Button Text</a>
-    <a href="" class="willow-button--inline willow-button willow-button--primary" aria-label="">Primary Text</a>
-    <a href="" class="willow-button--inline willow-button willow-button--positive" aria-label="">Positive Text</a>
-    <a href="" class="willow-button--inline willow-button willow-button--negative" aria-label="">Negative Text</a>
-    <a href="" class="willow-button--inline willow-button willow-button--cta" aria-label="">CTA Text</a>
-    <div>
-        <div class="ghost-button-container-blue">
-            <a href="" class="willow-button--inline willow-button willow-button--ghost" aria-label="">Ghost Text</a>
+        <h1>Text Tags</h1>
+        <div class="row">
+            <div class="col-6">
+                <a href="#" class="willow-button--inline willow-button" aria-label="">Button Text</a>
+            </div>
+            <div class="col-6">
+                <a href="#" class="willow-button--inline willow-button willow-button--primary" aria-label="">Primary Text</a>
+                <a href="#" class="willow-button--inline willow-button willow-button--positive" aria-label="">Positive Text</a>
+                <a href="#" class="willow-button--inline willow-button willow-button--negative" aria-label="">Negative Text</a>
+                <a href="#" class="willow-button--inline willow-button willow-button--cta" aria-label="">CTA Text</a>
+            </div>
+            <div>
+                <div class="ghost-button-container-blue">
+                    <a href="#" class="willow-button--inline willow-button willow-button--ghost" aria-label="">Ghost Text</a>
+                </div>
+                <div class="ghost-button-container">
+                    <a href="#" class="willow-button--inline willow-button willow-button--ghost-secondary" aria-label="">Ghost Secondary Text</a>
+                </div>
+            </div>
+            <section class="willow-banner" role="region">
+                <h1 class="willow-banner__heading">Heading Text</h1>
+                <div class="willow-banner__content">
+                    <div class="willow-styling-context">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fuga a, soluta illum nesciunt totam
+                            ut, esse quos eligendi fugiat in omnis veritatis id, eos voluptatem repellendus harum ea!</p>
+                    </div>
+                </div>
+                <ul class="willow-banner__actions">
+                    <li class="willow-banner__action"><a href="#" class="willow-button willow-button--ghost-secondary" aria-label="">Button Text</a></li>
+                    <li class="willow-banner__action"><a href="#" class="willow-button willow-button--ghost" aria-label="">Primary Text</a></li>
+                </ul>
+            </section>
+            <div>
+                <a href="#" class="willow-button--inline willow-button" data-disabled="true" aria-disabled="true" aria-label="">Disabled Text</a>
+                <a href="#" class="willow-button--inline willow-button willow-button--ghost" aria-label="" data-disabled="true">Disabled Ghost Text</a>
+                <a href="#" class="willow-button--inline willow-button willow-button--ghost-secondary" aria-label="" data-disabled="true">Disabled Ghost Secondary Text</a>
+            </div>
         </div>
-        <div class="ghost-button-container">
-            <a href="" class="willow-button--inline willow-button willow-button--ghost-secondary" aria-label="">Ghost Secondary Text</a>
-        </div>
-    </div>
-    <div>
-        <a href="" class="willow-button--inline willow-button" data-disabled="true" aria-disabled="true" aria-label="">Disabled Text</a>
-        <a href="" class="willow-button--inline willow-button willow-button--ghost" aria-label="" data-disabled="true">Disabled Ghost Text</a>
-        <a href="" class="willow-button--inline willow-button willow-button--ghost-secondary" aria-label="" data-disabled="true">Disabled Ghost Secondary Text</a>
     </div>
     <script src="scripts/site.min.js"></script>
 </body>
